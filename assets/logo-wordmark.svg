@@ -1,0 +1,63 @@
+<svg width="900" height="220" viewBox="0 0 900 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="flagRed" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F44336"/>
+      <stop offset="100%" stop-color="#B5122A"/>
+    </linearGradient>
+    <linearGradient id="flagBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#204E8A"/>
+      <stop offset="100%" stop-color="#0B2340"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="180%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#07172d" flood-opacity="0.22"/>
+    </filter>
+    <clipPath id="flagClip">
+      <rect x="0" y="0" width="210" height="150" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="0" y="0" width="210" height="150" rx="28" fill="#F7F9FD"/>
+    <g clip-path="url(#flagClip)">
+      <rect x="0" y="0" width="210" height="150" fill="#FFFFFF"/>
+      <rect x="0" y="0" width="210" height="16" fill="url(#flagRed)"/>
+      <rect x="0" y="32" width="210" height="16" fill="url(#flagRed)"/>
+      <rect x="0" y="64" width="210" height="16" fill="url(#flagRed)"/>
+      <rect x="0" y="96" width="210" height="16" fill="url(#flagRed)"/>
+      <rect x="0" y="128" width="210" height="16" fill="url(#flagRed)"/>
+      <rect x="0" y="0" width="94" height="82" fill="url(#flagBlue)"/>
+      <g fill="#FFFFFF">
+        <circle cx="17" cy="16" r="3.2"/>
+        <circle cx="36" cy="16" r="3.2"/>
+        <circle cx="55" cy="16" r="3.2"/>
+        <circle cx="74" cy="16" r="3.2"/>
+        <circle cx="26.5" cy="28" r="3.2"/>
+        <circle cx="45.5" cy="28" r="3.2"/>
+        <circle cx="64.5" cy="28" r="3.2"/>
+        <circle cx="17" cy="40" r="3.2"/>
+        <circle cx="36" cy="40" r="3.2"/>
+        <circle cx="55" cy="40" r="3.2"/>
+        <circle cx="74" cy="40" r="3.2"/>
+        <circle cx="26.5" cy="52" r="3.2"/>
+        <circle cx="45.5" cy="52" r="3.2"/>
+        <circle cx="64.5" cy="52" r="3.2"/>
+        <circle cx="17" cy="64" r="3.2"/>
+        <circle cx="36" cy="64" r="3.2"/>
+        <circle cx="55" cy="64" r="3.2"/>
+        <circle cx="74" cy="64" r="3.2"/>
+      </g>
+    </g>
+
+    <path d="M48 48H70V24H90V48H112V68H90V92H70V68H48V48Z" fill="#FFFFFF"/>
+    <path d="M124 110C124 90.1177 140.118 74 160 74C179.882 74 196 90.1177 196 110C196 129.882 179.882 146 160 146C140.118 146 124 129.882 124 110Z" fill="rgba(255,255,255,0.24)"/>
+    <path d="M160 84L166.73 97.641H181.782L169.526 106.718L174.31 120.859L160 112.263L145.69 120.859L150.474 106.718L138.218 97.641H153.27L160 84Z" fill="#FFFFFF"/>
+  </g>
+
+  <g transform="translate(248 22)">
+    <text x="0" y="72" fill="#FFFFFF" font-size="68" font-weight="700" font-family="Space Grotesk, DM Sans, sans-serif" letter-spacing="2">HOLMQUIST</text>
+    <rect x="0" y="94" width="500" height="18" rx="9" fill="url(#flagRed)"/>
+    <rect x="0" y="124" width="395" height="18" rx="9" fill="#FFFFFF"/>
+    <rect x="0" y="154" width="450" height="18" rx="9" fill="url(#flagBlue)"/>
+    <text x="0" y="196" fill="#F7F9FD" font-size="56" font-weight="700" font-family="Space Grotesk, DM Sans, sans-serif" letter-spacing="8">FITNESS</text>
+  </g>
+</svg>
